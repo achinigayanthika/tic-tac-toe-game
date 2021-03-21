@@ -40,7 +40,7 @@ function makeMove(index) {
         xIsNext = !xIsNext;
         winner = selectWinner();
         if (winner !== null) {
-            document.getElementById('winner').innerText = 'Congratz! Player ' + winner + ' wins!';
+            document.getElementById('winner').innerText = 'Congratz! Player ' + winner + ' Wins!';
         }
     }
 }
